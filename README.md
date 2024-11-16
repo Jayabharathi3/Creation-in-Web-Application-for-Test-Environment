@@ -5,22 +5,59 @@
     Explain about the Experiment.
 
 ## ALGORITHM
- ### Steps 1:
- ### Steps 2:
+ ### Steps 1: 
+ Launch an EC2 instance in AWS using an Amazon Linux 2 AMI with a Security Group allowing HTTP and SSH traffic.
+ ### Steps 2: 
+ Connect to the instance using SSH and install a web server like Apache
  ### Steps 3:
+ Create a simple HTML file in the server's default directory with basic content for testing.
  ### Steps 4:
- ### Steps 5:
+ Access the instance's public IP in a browser to verify the HTML page is displayed.
+ 
+ 
 ## COMMANDS
-Include the commands used in the Experiment.
+### To install httpd:
+```
+yum install httpd -y
+```
+### To enable and start httpd :
+```
+systemctl enable httpd
+systemctl start httpd
+```
+### Create a simple HTML page :
+```
+cd /var/www/html
+sudo nano index.html
+```
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Environment</title>
+</head>
+<body>
+    <h1>Welcome to AWS Test Environment</h1>
+    <p>This is a simple HTML page hosted on AWS.</p>
+    <p> Jayabharathi S - 212222100013 </p>
+</body>
+</html>
+
+```
 
 ## OUTPUT
-### REG NUMBER:
-### NAME:
- 
- Include your Screenshots Here.
+
+### REG NUMBER:212222100013
+### NAME:JAYABHARATHI S
+
+### Terminal:
+![image](https://github.com/user-attachments/assets/fc9d9baf-9d2d-4470-833a-e6bce67247b7)
+
+### Website:
+
 ## RESULT
- 
+ Thus the web application for test environment has successfully been created and executed.
 
   
-
-
