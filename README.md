@@ -53,7 +53,6 @@ sudo nano index.html
 ### NAME:JAYABHARATHI S
 
 ### Terminal:
-![image](https://github.com/user-attachments/assets/fc9d9baf-9d2d-4470-833a-e6bce67247b7)
 
 ### Website:
 
