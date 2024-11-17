@@ -39,8 +39,7 @@ sudo nano index.html
     <title>Test Environment</title>
 </head>
 <body>
-    <h1>Welcome to AWS Test Environment</h1>
-    <p>This is a simple HTML page hosted on AWS.</p>
+    <h1>This is a simple HTML page </h1>
     <p> Jayabharathi S - 212222100013 </p>
 </body>
 </html>
